@@ -1,0 +1,68 @@
+<ng-particles [id]="id" [url]="particlesUrl" (particlesLoaded)="particlesLoaded($event)" (particlesInit)="particlesInit($event)"></ng-particles>
+<nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img style="width: 12%;" src="/assets/img/obg2.png" alt="Logo Oussama Bey Gahar"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#About-me">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#resume">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Full Page Image Header with Vertically Centered Content -->
+<header class="masthead">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-12 text-center">
+          <h1 class="fw-light an-1">Hello, I'm Oussama Bey Gahar</h1>
+          <p class="lead">Not Your Average Computer Enginner</p>
+          <div class="mail-holder">
+          <a href="mailto:oussama.beygahar@gmail.com" class="email-link">Get In Touch</a>
+        </div>
+          
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <div class="side-box-right d-none d-lg-block">
+    <div class="position-absolute bottom-0 end-0 side-box-link-container">
+      <a class="link" href="mailto:oussama.beygahar@gmail.com">oussama.beygahar@gmail.com</a>
+      <!-- <span class="vertical-line"></span>-->
+    </div>
+  </div>
+  <div class="side-box-left d-none d-lg-block">
+    <div class="position-absolute bottom-0 end-0 side-box-link-container">
+      <ul class="social-list">
+        <li><a href="https://github.com/OussamaBeyGahar" target="_blank" rel="noopener noreferrer"><img src="/assets/img/github.svg" alt=""> </a></li>
+        <li><a href="https://www.linkedin.com/in/oussama-bey-gahar/" target="_blank" rel="noopener noreferrer"><img src="/assets/img/linkedin.svg" alt=""> </a></li>
+        <li style="margin-bottom: 20px;"><a href="https://www.instagram.com/oussama.beygahar/" target="_blank" rel="noopener noreferrer"><img src="/assets/img/instagram.svg" alt=""> </a></li>
+      </ul>
+      <!-- <span class="vertical-line"></span>-->
+    </div>
+  </div>
+  <!-- <router-outlet></router-outlet>-->
+  <section class="py-5" id="About-me">
+    <app-landing></app-landing>
+  </section>
+  <section class="py-5" id="resume">
+    <app-resume></app-resume>
+  </section>
+
+  <section class="py-5" id="contact">
+    <app-contact></app-contact>
+  </section>

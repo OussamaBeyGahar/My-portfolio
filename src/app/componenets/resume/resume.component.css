@@ -1,0 +1,31 @@
+.Title-header{
+    color: #00a1a7;
+    font-weight: bold;
+    font-size: 26px;
+    padding: 20px;
+
+}
+.job-date{
+    padding: 15px;
+    color:#00a1a7;
+}
+.job-title{
+    padding: 15px;
+    font-weight: bold;
+}
+.ludwin-logo{
+    width: 80%!important;
+    padding-top: 15px;
+}
+.job-description{
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+.job-description li::before {
+    content: "▹";
+    position: absolute;
+    left: 0px;
+    color:  #00a1a7;
+}

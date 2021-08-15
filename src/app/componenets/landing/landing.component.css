@@ -1,0 +1,105 @@
+.about-me-header{
+    color: #00a1a7;
+    font-weight: bold;
+
+}
+.profil-img{
+    height: 160px;
+    width: 159px;
+}
+.bold{
+    font-family: "Raleway-bold";
+}
+.label{
+    margin: 20px 0 15px 0;
+    font-weight: bold;
+    font-size: 18pt;
+}
+.bar {
+    align-items: flex-end!important;
+    background-color: #eee;
+    color: #666;
+    font-size: 7pt;
+    height: 22px;
+    margin: 0 0 12px 0;
+    position: relative;
+}
+@media screen and (min-width: 960px) {
+.bar {
+    max-width: 90%;
+}
+}
+@media screen and (min-width: 600px) {
+    .bar {
+        font-size: 11pt;
+        height: 28px;
+        margin: 0 0 15px 0;
+    }
+} 
+.bar.fill {
+    left: 0;
+    position: absolute;
+    top: 0;
+    background-color: #00a1a7;
+    opacity: 1;
+    padding: 0;
+}
+.bar span {
+    display: initial;
+    padding: 0 15px 0 0;
+    z-index: 1;
+}
+.tag {
+    width: 110px!important;
+}
+.bar .tag {
+    left: 0;
+    position: absolute;
+    top: 0;
+    background-color: #04c2c9;
+    color: #fff;
+    height: 100%;
+    width: 110px;
+    width: 70px;
+}
+.bars-wrap {
+    margin: 0 0 0 0;
+}
+.flex {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-me-imgs{
+    padding : 20px 0 20px 0;
+}
+.skill-tabs{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    color: var(--color-gray-1000);
+    padding: 3px 12px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    font-weight: var(--font-weight-medium);
+}
+
+.skill-divs{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    opacity: 0.33;
+    background-color: #DA0037;
+    inset: 0px;
+    border-radius: 8px;
+    transform-origin: center center;
+
+}
+.bar span{
+    display: initial;
+    padding: 0 15px 0 0;
+    z-index: 1;
+}
